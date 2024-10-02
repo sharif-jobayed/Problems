@@ -8,7 +8,6 @@ public class Solution {
 
     static void getSortedNumbers() {
         Scanner receivedInteger = new Scanner(System.in);
-        Integer comparingUnit = 0;
 
         // Receive numbers multiple times
         for(int i = 0; i < 5; i++) {
