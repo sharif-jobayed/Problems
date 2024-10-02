@@ -1,0 +1,3 @@
+
+Insert numbers manually into a list.
+Make & display the list be sorted by lowest to highest.
