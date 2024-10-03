@@ -7,16 +7,11 @@ public class Solution {
         HashSet<Integer> numbers = new HashSet<>();
 
         for (int i : args) {
-            System.out.println("The numbers set is now: "+numbers);
-            System.out.println("The i is now: "+ i);
-
-            if (numbers.contains(i)) {
+            if(numbers.contains(i)) {
                 return true;
-            } else {
-                numbers.add(i);
             }
+            numbers.add(i);
         }
-
         return false;
     }
 
