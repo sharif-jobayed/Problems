@@ -5,7 +5,6 @@ import java.util.HashSet;
 public class Solution {
 
     public static boolean hasDuplicates(Integer... args) {
-
         HashSet<Integer> numbers = new HashSet<>();
 
         for (int i : args) {
@@ -16,15 +15,10 @@ public class Solution {
                 return true;
             }
             numbers.add(i);
-
-            System.out.println("-----------------------------------------------------------------------");
         }
 
         return false;
-
     }
-
-
 
     public static void main(String[] args) {
         boolean hasDuplicates = hasDuplicates(5, 7, 8, 10, 18, 8, 11, 5, 8, 0);
