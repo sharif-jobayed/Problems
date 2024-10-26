@@ -1,0 +1,4 @@
+Given a list of numbers. Display the sum of the elements of the list.
+
+Example list: 1, 2, 3, 4
+Displayed sum: 10
