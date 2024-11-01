@@ -51,6 +51,7 @@ steps/
 target/
 
 # Gradle, Maven
+gradle.properties
 .gradle/
 .mvn/
 *.ser
