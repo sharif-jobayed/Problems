@@ -1,4 +1,10 @@
+Problem 01:
 Given a list of numbers. Display the sum of the elements of the list.
 
 Example list: 1, 2, 3, 4
 Displayed sum: 10
+
+Problem 02:
+Write a function to calculate the sum of digits of a given positive integer.
+Example Input: 1234
+Example Output: 10
