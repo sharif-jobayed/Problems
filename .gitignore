@@ -21,7 +21,6 @@ build/
 .editorconfig
 .eslintcache
 .gitattributes
-.gitignore
 .jshintrc
 .lintrc
 .npmrc
