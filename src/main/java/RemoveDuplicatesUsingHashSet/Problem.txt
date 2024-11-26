@@ -1,0 +1,2 @@
+
+Task: Given a list of integers, remove duplicates and display the unique elements.
