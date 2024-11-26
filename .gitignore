@@ -1,2 +1,114 @@
-/.idea/
-/target/
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.jnilib
+*.dll
+*.so
+
+# NodeJS
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# JavaScript
+*.js.map
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# TestNG
+test-output/
+
+# Cucumber
+*.cucumber/
+
+# Jenkins
+.jenkins/
+workspace/
+
+# Mocha
+mochawesome-report/
+
+# Allure Report
+allure-results/
+allure-report/
+
+# Extent Report
+extent-report/
+*.html
+
+# JMeter
+*.jmx
+*.jtl
+results/
+
+# Appium
+appium.log
+
+# Different IDEs
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# OS-Specific Files
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.Trash-*/
+
+# Selenium
+selenium-log/
+*.screenshot.png
+
+# General log, temp, and backup files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Coverage Reports
+coverage/
+.nyc_output/
+.coverage
+coverage-final.json
+test-coverage/
+
+# Exclude built/distribution files
+dist/
+tmp/
+
+# Environment and config files
+.env
+*.env
