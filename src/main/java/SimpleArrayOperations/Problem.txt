@@ -1,0 +1,2 @@
+
+Task: Create an integer array, initialize it with values, and find the sum of its elements.
