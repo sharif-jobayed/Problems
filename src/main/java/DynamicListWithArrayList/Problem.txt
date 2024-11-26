@@ -1,0 +1,2 @@
+
+Task: Create an ArrayList, add names to it, remove a specific name, and display the list.
