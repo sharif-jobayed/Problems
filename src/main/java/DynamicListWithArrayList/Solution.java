@@ -30,5 +30,8 @@ public class Solution {
         solution.names_01.forEach(name -> {
             System.out.println("The name is: "+ name);
         });
+
+        solution.names_01.add("Saqlain");
+        System.out.println("The added spinner is: "+ solution.names_01.getLast());
     }
 }
