@@ -1,0 +1,3 @@
+Given is a string "We are clarifying the Epic entity that you are signing the EULA with based on where you live."
+
+Find the 3rd character from the second word from the string.
