@@ -16,6 +16,7 @@ public class Solution {
         this.names_01.add("Waqar");
         this.names_01.add("Saeed");
         this.names_01.add("Inzi");
+        this.names_01.add("Umar Gul");
 
         return this;
     }
@@ -32,6 +33,12 @@ public class Solution {
         });
 
         solution.names_01.add("Saqlain");
-        System.out.println("The added spinner is: "+ solution.names_01.getLast());
+        System.out.println("The added name is: "+ solution.names_01.getLast());
+
+        String nameToRemove = "Umar Gul";
+        boolean removeName = solution.names_01.remove("Umar Gul");
+        if(removeName && !solution.names_01.contains("Umar Gul")) {
+            System.out.println("The name "+ nameToRemove + " is removed.");
+        }
     }
 }
