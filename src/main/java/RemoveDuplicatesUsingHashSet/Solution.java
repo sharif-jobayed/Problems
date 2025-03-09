@@ -12,17 +12,16 @@ public class Solution {
         this.anIntegerList = receivedIntegerList;
     }
 
-    public Solution removeDuplicates() {
+    public void removeDuplicates() {
         Set<Integer> aSet = new HashSet<>(this.anIntegerList);
 
         System.out.println("The items in the list are: " + aSet);
-        return this;
     }
 
     /*-------------------------------------------------------------------------------------------------------*/
 
     public static void main(String[] args) {
-        List<Integer> integerList = new ArrayList<>(List.of(1, 1, 5, 8, 68, 4, 6, 84, 8));
+        List<Integer> integerList = List.of(1, 1, 5, 8, 68, 4, 6, 84, 8, 7, 15, 7);
 
         Solution solution_01 = new Solution(integerList);
 
