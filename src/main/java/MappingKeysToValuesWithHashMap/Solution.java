@@ -27,7 +27,7 @@ public class Solution {
         solution.setPlayers();
         System.out.println("The current players are: " + solution.players);
 
-        solution.players.put(1, "Javed Miandad");
+        solution.players.replace(1, "Javed Miandad");
         System.out.println("The new Captain is: " + solution.players.get(1));
 
         solution.players.put(6, "Inzamam Ul Haq");
