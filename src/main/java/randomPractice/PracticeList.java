@@ -19,5 +19,4 @@ public class PracticeList {
     public List<Integer> getAnImmutableList() {
         return this.anImmutableList;
     }
-
 }
