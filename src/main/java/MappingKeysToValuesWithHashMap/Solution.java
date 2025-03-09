@@ -27,10 +27,10 @@ public class Solution {
         solution.setPlayers();
         System.out.println("The current players are: "+solution.players);
 
-        solution.players.put(1, "Javed");
-        System.out.println("The current players are: "+solution.players);
+        solution.players.put(1, "Javed Miandad");
+        System.out.println("The new Captain is: "+solution.players.get(1));
 
-        solution.players.put(6, "Inzi");
+        solution.players.put(6, "Inzamam Ul Haq");
         System.out.println("The current players are: "+solution.players);
 
         System.out.println("The man of the match is: "+solution.players.get(4));
