@@ -25,17 +25,17 @@ public class Solution {
         Solution solution = new Solution();
 
         solution.setPlayers();
-        System.out.println("The current players are: "+solution.players);
+        System.out.println("The current players are: " + solution.players);
 
         solution.players.put(1, "Javed Miandad");
-        System.out.println("The new Captain is: "+solution.players.get(1));
+        System.out.println("The new Captain is: " + solution.players.get(1));
 
         solution.players.put(6, "Inzamam Ul Haq");
-        System.out.println("The current players are: "+solution.players);
+        System.out.println("The current players are: " + solution.players);
 
-        System.out.println("The man of the match is: "+solution.players.get(4));
+        System.out.println("The man of the match is: " + solution.players.get(4));
 
         String injured = solution.players.remove(6);
-        System.out.println("The injured player is: "+injured);
+        System.out.println("The injured player is: " + injured);
     }
 }
