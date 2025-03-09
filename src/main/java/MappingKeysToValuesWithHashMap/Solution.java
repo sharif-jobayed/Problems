@@ -35,7 +35,7 @@ public class Solution {
 
         System.out.println("The man of the match is: "+solution.players.get(4));
 
-        String injured = solution.players.remove(5);
+        String injured = solution.players.remove(6);
         System.out.println("The injured player is: "+injured);
     }
 }
