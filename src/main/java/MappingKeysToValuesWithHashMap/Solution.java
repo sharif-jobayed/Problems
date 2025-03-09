@@ -7,15 +7,15 @@ public class Solution {
     private Map<Integer, String> players;
 
     public Solution() {
-        this.players = new HashMap<>();
+        this.players = new HashMap<>(Map.of());
     }
 
     public Solution setPlayers() {
-        this.players.put(1, "Imran");
-        this.players.put(2, "Wasim");
-        this.players.put(3, "Waqar");
-        this.players.put(4, "Saeed");
-        this.players.put(5, "Saqlain");
+        this.players.put(1, "Imran Khan");
+        this.players.put(2, "Wasim Akram");
+        this.players.put(3, "Waqar Younus");
+        this.players.put(4, "Saeed Anwar");
+        this.players.put(5, "Saqlain Mushtaq");
 
         return this;
     }
