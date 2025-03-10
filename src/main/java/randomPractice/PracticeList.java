@@ -8,8 +8,8 @@ public class PracticeList {
     private List<Integer> anImmutableList;
 
     public PracticeList() {
-        this.aMutableList = new ArrayList<>(List.of(0, 1, 2));
-        this.anImmutableList = List.of(0, 1, 2);
+        this.aMutableList = new ArrayList<>(List.of(10, 41, 82));
+        this.anImmutableList = List.of(10, 41, 82);
     }
 
     public List<Integer> getaMutableList() {

@@ -17,6 +17,9 @@ public class Main {
 //        practiceList.getAnImmutableList().addAll(List.of(3,4,5));
 //        System.out.println("anImmutableArrayList now is: "+practiceList.getAnImmutableList());
 
+        practiceList.getaMutableList().remove(0);
+        System.out.println("After removing 1, aMutableList is now: "+practiceList.getaMutableList());
+
         System.out.println("---------------------------------------------------");
 
         // PracticeMap
