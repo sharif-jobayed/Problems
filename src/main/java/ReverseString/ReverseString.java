@@ -1,16 +1,33 @@
 package ReverseString;
 
 public class ReverseString {
-    public static void main(String[] args) {
-        String text = "Hello";
-        StringBuilder reversed = new StringBuilder();
-//        String reverseString = new StringBuilder(text).reverse().toString();
-//        System.out.println("The reverse String is: " + reverseString);
+    private final StringBuilder REVERSED;
 
+    public ReverseString() {
+        this.REVERSED = new StringBuilder();
+    }
+
+    public void method_01(String text) {
         for (int i = text.length() - 1; i >= 0; i--) {
-            reversed.append(text.charAt(i));
+            this.REVERSED.append(text.charAt(i));
         }
+    }
 
-        System.out.println("The reverse String is: " + reversed);
+    public void method_02(String text) {
+        new StringBuilder(text).reverse();
+    }
+
+
+
+    public static void main(String[] args) {
+        ReverseString reverseString = new ReverseString();
+
+        String text = "Hello";
+
+        reverseString.method_01(text);
+        System.out.println("The reverse String is: " + reverseString.REVERSED);
+
+        reverseString.method_02(text);
+        System.out.println("The reverse String is: " + reverseString.REVERSED);
     }
 }
