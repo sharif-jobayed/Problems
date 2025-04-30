@@ -15,5 +15,4 @@ public class Solution2 {
         Solution2 solution2 = new Solution2();
         System.out.println("Sum of arr1 is: " + solution2.sum(solution2.arr1));
     }
-
 }
