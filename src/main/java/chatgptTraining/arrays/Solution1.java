@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class Solution1 {
     public int[] arr1 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
     public int[] arr2 = new int[10];
+    public Integer[] arr3 = new Integer[5];
 
     public int[] revert1(int[] arr) {
         int[] tempArr = new int[arr.length];
@@ -30,5 +31,9 @@ public class Solution1 {
         System.out.println("The array2 is: " + Arrays.toString(solution1.arr2));
         int[] revertArr2 = solution1.revert1(solution1.arr2);
         System.out.println("The reversed array2 is: " + Arrays.toString(revertArr2));
+
+        solution1.arr3[1] = 8;
+        solution1.arr3[3] = 5;
+        System.out.println("arr3 is: "+Arrays.toString(solution1.arr3));
     }
 }

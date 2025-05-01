@@ -1,0 +1,1 @@
+1. Given a String[] arr, convert it to a mutable ArrayList, append "END", then convert back to String[].
