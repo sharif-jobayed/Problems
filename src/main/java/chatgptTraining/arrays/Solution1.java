@@ -1,4 +1,4 @@
-package chatgptTraining;
+package chatgptTraining.arrays;
 
 import java.util.Arrays;
 

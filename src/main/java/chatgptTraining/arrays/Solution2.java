@@ -1,4 +1,4 @@
-package chatgptTraining;
+package chatgptTraining.arrays;
 
 public class Solution2 {
     public int[] arr1 = {98, 461, 61, 5, 84, 614, 1};

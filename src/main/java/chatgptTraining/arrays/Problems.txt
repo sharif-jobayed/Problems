@@ -1,0 +1,4 @@
+1: Reverse an int[] in-place
+2: Sum elements without modifying original array
+3. Swap first and last elements of a String[]—write the method and test it with at least three different arrays (odd/even lengths).
+4. Create an int[] of length 10, fill it with random numbers (0–100), print the array, then compute and print its minimum, maximum, and average value—without using any utility classes.
