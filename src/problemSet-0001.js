@@ -233,7 +233,7 @@ const total = numArr1.reduce((accumulated, toAdd) => {
 console.log(total); */
 
 // Sum up the total of the given number's digits without using reduce()
-const makeTotal = (num) => {
+/* const makeTotal = (num) => {
 	const digits = num.toString().split('');
 	let total = 0;
 	for (let i = 0; i < digits.length; i++) {
@@ -242,6 +242,90 @@ const makeTotal = (num) => {
 	return total;
 }
 
-console.log(makeTotal(1234));
+console.log(makeTotal(1234)); */
 
 /*-------------------------------------- Problem-0007 end (Array reduce method) --------------------------------------*/
+
+/*-------------------------------------- Practice Problem 1: The E-commerce Shopping Cart --------------------------------------*/
+
+const shoppingCart = [
+	{ product: "Laptop", price: 1200, quantity: 1 },
+	{ product: "Mouse", price: 25, quantity: 2 },
+	{ product: "Keyboard", price: 75, quantity: 1 },
+	{ product: "Monitor", price: 300, quantity: 2 }
+];
+
+// Your `calculateCartTotal` function here...
+const calculateCartTotal = (objArr) => {
+	/* let quants = 0;
+	for (let item of objArr) {
+		quants += item.quantity.valueOf();
+	} */
+
+	// Complete using map() & reduce()
+	const itemQuantities = objArr.map((item) => {
+		return item.quantity;
+	});
+	console.log(itemQuantities);
+
+	const itemTotal = itemQuantities.reduce((acc, quant) => {
+		return acc + quant;
+	}, 0);
+	console.log(itemTotal);
+
+	const itemPrices = objArr.map((item) => {
+		return item.price * item.quantity;
+	});
+	console.log(itemPrices);
+
+	const total = itemPrices.reduce((acc, price) => {
+		return acc + price;
+	}, 0);
+	console.log(total);
+
+	return total;
+
+}
+
+calculateCartTotal(shoppingCart);
+
+
+/*-------------------------------------- Practice Problem 1 End --------------------------------------*/
+
+/*-------------------------------------- Practice Problem 2: Asynchronous Data Aggregator --------------------------------------*/
+
+const bookIds = [101, 102, 103];
+const badBookIds = [101, 'invalid_id', 103];
+
+const fetchBookData = (bookId) => {
+	// Your Promise logic here...
+};
+
+const getCombinedBookStats = async (ids) => {
+	// Your async/await and Promise.all logic here...
+};
+
+
+/*-------------------------------------- Practice Problem 2 End --------------------------------------*/
+
+/*-------------------------------------- Practice Problem 3: The Palindrome Checker --------------------------------------*/
+
+/*
+Plan:
+1. Create a function `isPalindrome(str)`.
+2. Sanitize the input string:
+		a. Convert to lowercase.
+		b. Remove all non-alphanumeric characters. (Hint: Regular Expressions are great for this: `str.replace(/[^a-z0-9]/g, "")`)
+3. Create a reversed version of the sanitized string. (Hint: `.split('').reverse().join('')`)
+4. Compare the sanitized string with its reversed version and return the result.
+*/
+
+const isPalindrome = (str) => {
+	// Your logic here...
+};
+
+console.log(`"A man, a plan, a canal: Panama" is a palindrome: ${isPalindrome("A man, a plan, a canal: Panama")}`); // Expected: true
+console.log(`"race a car" is a palindrome: ${isPalindrome("race a car")}`); // Expected: false
+
+
+/*-------------------------------------- Practice Problem 3 End --------------------------------------*/
