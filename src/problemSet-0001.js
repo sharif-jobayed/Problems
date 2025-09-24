@@ -173,13 +173,13 @@ displayUser(); // Call the async function to start the process */
 
 /*-------------------------------------- Problem-0006 start (Final Polish & Problem-Solving Strategy) --------------------------------------*/
 
-const studentData = [
+/* const studentData = [
 	{ name: "Alice", testScores: [85, 92, 78] },
 	{ name: "Bob", testScores: [55, 60, 50] },
 	{ name: "Charlie", testScores: [] }, // Has no scores
 	{ name: "David", testScores: [95, 88, 97] },
 	{ name: "Eve", testScores: [40, 55, 60] }
-];
+]; */
 
 // Your function will go here
 
@@ -195,7 +195,7 @@ Plan:
 4. Return the new mapped array.
 */
 
-const processStudentData = () => {
+/* const processStudentData = () => {
 	const filteredStudents = studentData.filter((student) => {
 		return student.testScores.length > 0;
 	});
@@ -216,5 +216,32 @@ const processStudentData = () => {
 	return processedStudents;
 }
 
+console.log(processStudentData()); */
+
+
 
 /*-------------------------------------- Problem-0006 end (Final Polish & Problem-Solving Strategy) --------------------------------------*/
+
+/*-------------------------------------- Problem-0007 end (Array reduce method) --------------------------------------*/
+
+/* const numArr1 = [1, 2, 3, 4];
+
+const total = numArr1.reduce((accumulated, toAdd) => {
+	return accumulated + toAdd;
+}, 0);
+
+console.log(total); */
+
+// Sum up the total of the given number's digits without using reduce()
+const makeTotal = (num) => {
+	const digits = num.toString().split('');
+	let total = 0;
+	for (let i = 0; i < digits.length; i++) {
+		total += parseInt(digits[i]);
+	}
+	return total;
+}
+
+console.log(makeTotal(1234));
+
+/*-------------------------------------- Problem-0007 end (Array reduce method) --------------------------------------*/
