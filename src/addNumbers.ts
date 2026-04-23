@@ -3,9 +3,9 @@ Given a string "1234"
 Display the sum of the digits
 */
 
+let total = 0;
 
 const totalOfDigits = (numStr: string): number => {
-	let total = 0;
 	const chars = Array.from(numStr);
 
 	for (const ch of chars) {
