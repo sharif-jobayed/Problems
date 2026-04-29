@@ -41,8 +41,7 @@ const checkPalindrome = async(givenInt: number): Promise<boolean> => {
 		reversedStr.push(ch);
 	}
 	console.log(reversedStr);
-
-
+	return false;
 }
 
 checkPalindrome(givenInt);
